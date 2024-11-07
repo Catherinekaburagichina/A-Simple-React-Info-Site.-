@@ -1,0 +1,31 @@
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  
+  box-shadow: 0px 0px 3px rgb(177, 175, 175);
+  background: #21222A;
+  height: 90px;
+}
+
+nav> h2{
+  margin-right: 50px;
+  color: white;
+  font-size: 22px;
+  
+}
+
+h1{
+  font-weight: bolder;
+  margin-left: 1px;
+  color:#61DAFB;
+  font-size: 35px;
+
+  margin-right: auto;
+}
+
+header>h1{
+  margin-right: auto;
+}
+
