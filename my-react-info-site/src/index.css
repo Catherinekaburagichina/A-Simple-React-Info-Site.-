@@ -1,31 +1,71 @@
+body{
+  background: #282D35;
+}
 
 nav{
   display: flex;
   align-items: center;
-  padding: 8px;
+  /* padding: 8px; */
   
   box-shadow: 0px 0px 3px rgb(177, 175, 175);
   background: #21222A;
   height: 90px;
 }
 
-nav> h2{
+.nav-fundamentals-title{
   margin-right: 50px;
   color: white;
   font-size: 22px;
   
 }
 
-h1{
+.nav-react-facts-title{
   font-weight: bolder;
-  margin-left: 1px;
-  color:#61DAFB;
+  margin-left: 8px;
   font-size: 35px;
-
+  color: white;
   margin-right: auto;
 }
 
-header>h1{
-  margin-right: auto;
+/* ...Content Starts Here :... */
+
+content{
+  color: white;
 }
 
+content,.fun-facts-title,.react-facts-list{
+  margin-left: 160px;
+
+}
+
+.fun-facts-title{
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+
+.react-facts-list{
+  margin-top: 40px;
+  max-width: 500px;
+  
+}
+
+.react-facts-list > li{
+  line-height: 19px;
+  padding-block: 10px;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.react-facts-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.6rem;
+
+}
+
+.background{
+position: absolute;
+top: 20px;
+padding-top: 100px;
+margin-left: 750px
+
+}

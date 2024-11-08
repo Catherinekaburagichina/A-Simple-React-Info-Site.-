@@ -1,10 +1,10 @@
-import Header from './Header.jsx'
+import Navigation from './Navigation.jsx'
 import Content from './Content.jsx'
 
 function App() {
   return(
     <div>
-  <Header></Header>
+  <Navigation></Navigation>
   <Content></Content>
     </div>
     
